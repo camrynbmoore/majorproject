@@ -1,0 +1,61 @@
+
+
+.interactiveSlide {
+  width: 500px;
+  height: 300px;
+  font-family: "Hind", sans-serif;
+  font-size: 25px;
+}
+
+.interactiveSlide img {
+  width: 500px;
+  height: 300px;
+  display: fixed;
+}
+
+.mainbox p {
+  width: 200px;
+  height 100px;
+}
+
+.optiona {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.optionb {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 60px;
+  left: 900px;
+}
+
+#choiceone {
+  /* only applies to the choiceone slide */
+}
+
+#choicetwo {
+  
+}
+
+#choiceThree .optiona {
+  /* something different */
+}
+
+#choicefour {
+  
+}
+
+#choicefive {
+  
+}
+
+#choicesix {
+  
+}
