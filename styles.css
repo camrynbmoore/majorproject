@@ -1,61 +1,181 @@
 
 
 .interactiveSlide {
-  width: 500px;
-  height: 300px;
+  width: 80vw;
+  height: 80vh;
   font-family: "Hind", sans-serif;
   font-size: 25px;
+  display: none;
 }
 
 .interactiveSlide img {
-  width: 500px;
-  height: 300px;
-  display: fixed;
+  width: 98vw;
+  height: 97vh;
+  background: cover;
+  background-position: center;
 }
 
-.mainbox p {
-  width: 200px;
-  height 100px;
+.mainbox {
+  width: 60vw;
+  height: 20vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: lightblue;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 15%;
 }
 
 .optiona {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
+  width: 125px;
+  height: 60px;
+  padding-top: 26px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: block;
   position: absolute;
-  top: 60px;
-  left: 30px;
+  top: 400px;
+  left: 560px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100%;
 }
 
 .optionb {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
+  width: 125px;
+  height: 60px;
+  padding-top: 26px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: block;
   position: absolute;
-  top: 60px;
-  left: 900px;
+  top: 400px;
+  left: 930px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100%;
 }
 
-#choiceone {
-  /* only applies to the choiceone slide */
+#start {
+  /*display: block;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  text-align: center;*/
 }
 
-#choicetwo {
-  
+/*CHOICE ONE 11111111111111111111111111111111111111111111111111111111111111111111111111 */
+x#choiceone {
+  display: block;
 }
 
-#choiceThree .optiona {
-  /* something different */
+/* added some custome css to choice 1 options a and b */
+x#choiceone .optiona {
+  padding-top: 50px;
 }
 
-#choicefour {
-  
+x#choiceone .optionb {
+  padding-top: 50px;
+}
+/* end customization for choice 1 options a and b */
+
+/* CHOICE TWO 22222222222222222222222222222222222222222222222222222222222222222222222222 */
+x#choicetwo {
+  display: block;
 }
 
-#choicefive {
-  
+/* CHOICE THREE 333333333333333333333333333333333333333333333333333333333333333333333333 */
+x#choicethree {
+  display: block;  
 }
 
-#choicesix {
-  
+x#choicethree .mainbox {
+  padding-bottom: 190px;
 }
+
+x#choicethree .optiona {
+  top: 520px;
+}
+
+x#choicethree .optionb {
+  xtop: 520px;
+  line-height: 100%;
+}
+
+/* DEADEND /////////////////////////////////////////////////////////////////////////////// shows up on previous choice's screen*/
+
+
+/* CHOICE FOUR 444444444444444444444444444444444444444444444444444444444444444444444444444 not finished optiona is not centered like I want*/
+x#choicefour {
+  display: block;
+}
+
+x#choicefour .mainbox {
+  padding-bottom: 38px;
+}
+
+x#choicefour .optiona {
+  width: 30vw;
+  height: 10vh;
+  left: 265px;
+}
+
+x#choicefour .optionb {
+  width: 30vw;
+  height: 10vh;
+  left: 845px;
+}
+
+/* CHOICE FIVE 555555555555555555555555555555555555555555555555555555555555555555555555 */
+x#choicefive {
+  display: block;
+}
+
+x#choicefive .mainbox {
+  padding-bottom: 80px;
+}
+
+x#choicefive .optiona {
+  width: 30vw;
+  height: 10vh;
+  left: 255px;
+  padding-top: 48px;
+}
+
+x#choicefive .optionb {
+  width: 30vw;
+  height: 10vh;
+  left: 851px;
+  padding-top: 48px;
+}
+
+/* CHOICE 6 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 NOT DISPLAYING  */
+x#choicesix {
+  display: block;
+}
+
+x#choicesix .optiona {
+  width: 30vw;
+  height: 10vh;
+  left: 255px;
+}
+
+x#choicesix .optionb {
+  width: 30vw;
+  height: 10vh;
+  left: 851px;
+}
+
+/* ENDING SLIDE NOT DISPLAYING*/
+#final {
+  display: block;
+}
+
+
+
