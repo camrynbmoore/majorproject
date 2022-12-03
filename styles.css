@@ -9,10 +9,18 @@
 }
 
 .interactiveSlide img {
-  width: 98vw;
+  width: 99vw;
   height: 97vh;
   background: cover;
   background-position: center;
+}
+
+#start .title h1 {
+  position: absolute;
+  top: 200px;
+  left: 555px;
+  font-family: "Hind", sans-serif;
+  font-size: 50px;
 }
 
 .mainbox {
@@ -28,6 +36,8 @@
   text-align: center;
   top: 5%;
   left: 15%;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 .optiona {
@@ -44,6 +54,8 @@
   background-color: lightblue;
   text-align: center;
   line-height: 100%;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 .optionb {
@@ -60,121 +72,173 @@
   background-color: lightblue;
   text-align: center;
   line-height: 100%;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 #start {
-  /*display: block;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  text-align: center;*/
+  display: block;
 }
 
-/*CHOICE ONE 11111111111111111111111111111111111111111111111111111111111111111111111111 */
-x#choiceone {
+#start .optiona {
+  left: 820px; 
+  padding-top: 43px;
+  padding-bottom: 4px;
+}
+
+/*CHOICE ONE 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+#choiceone.interactiveSlide.showSlide {
   display: block;
 }
 
 /* added some custome css to choice 1 options a and b */
-x#choiceone .optiona {
+#choiceone .optiona {
   padding-top: 50px;
 }
 
-x#choiceone .optionb {
+#choiceone .optionb {
   padding-top: 50px;
 }
 /* end customization for choice 1 options a and b */
 
-/* CHOICE TWO 22222222222222222222222222222222222222222222222222222222222222222222222222 */
-x#choicetwo {
+/* CALL IN SICK */
+#callinsick.interactiveSlide.showSlide {
   display: block;
 }
 
-/* CHOICE THREE 333333333333333333333333333333333333333333333333333333333333333333333333 */
-x#choicethree {
+#callinsick .mainbox {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+#callinsick .optiona {
+  top: 300px;
+  left: 500px;
+  padding-top: 43px;
+  padding-bottom: 4px;
+}
+
+/* CHOICE TWO 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 */
+#choicetwo.interactiveSlide.showSlide {
+  display: block;
+}
+
+/* CHOICE THREE 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333 */
+#choicethree.interactiveSlide.showSlide {
   display: block;  
 }
 
-x#choicethree .mainbox {
+#choicethree .mainbox {
   padding-bottom: 190px;
 }
 
-x#choicethree .optiona {
+#choicethree .optiona {
   top: 520px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 
-x#choicethree .optionb {
-  xtop: 520px;
+#choicethree .optionb {
+  top: 520px;
   line-height: 100%;
+  padding-top: 30px;
 }
 
-/* DEADEND /////////////////////////////////////////////////////////////////////////////// shows up on previous choice's screen*/
+/* DEADEND ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
-/* CHOICE FOUR 444444444444444444444444444444444444444444444444444444444444444444444444444 not finished optiona is not centered like I want*/
-x#choicefour {
+#deadend.interactiveSlide.showSlide {
   display: block;
 }
 
-x#choicefour .mainbox {
+#deadend .mainbox {
+  padding-top: 25px;
+  padding-bottom: 78px;
+}
+
+#deadend .optiona {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  left: 45%;
+}
+
+/* CHOICE FOUR 444444444444444444444444444444444444444444444444444444444444444444444444444 */
+#choicefour.interactiveSlide.showSlide {
+  display: block;
+}
+
+#choicefour .mainbox {
   padding-bottom: 38px;
 }
 
-x#choicefour .optiona {
+#choicefour .optiona {
+  top: 350px;
   width: 30vw;
-  height: 10vh;
+  height: 12vh;
   left: 265px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-x#choicefour .optionb {
+#choicefour .optionb {
+  top: 350px;
   width: 30vw;
-  height: 10vh;
+  height: 12vh;
   left: 845px;
+  padding-top; 50px;
+  padding-bottom: 1px;
 }
 
 /* CHOICE FIVE 555555555555555555555555555555555555555555555555555555555555555555555555 */
-x#choicefive {
+#choicefive.interactiveSlide.showSlide {
   display: block;
 }
 
-x#choicefive .mainbox {
+#choicefive .mainbox {
   padding-bottom: 80px;
 }
 
-x#choicefive .optiona {
+#choicefive .optiona {
   width: 30vw;
   height: 10vh;
   left: 255px;
   padding-top: 48px;
 }
 
-x#choicefive .optionb {
+#choicefive .optionb {
   width: 30vw;
   height: 10vh;
   left: 851px;
   padding-top: 48px;
 }
 
-/* CHOICE 6 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 NOT DISPLAYING  */
-x#choicesix {
+/* CHOICE 6 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
+#choicesix.interactiveSlide.showSlide {
   display: block;
 }
 
-x#choicesix .optiona {
+#choicesix .optiona {
+  padding-top: 35px;
+  padding-bottom: 0px;
   width: 30vw;
   height: 10vh;
   left: 255px;
 }
 
-x#choicesix .optionb {
+#choicesix .optionb {
   width: 30vw;
   height: 10vh;
   left: 851px;
 }
 
 /* ENDING SLIDE NOT DISPLAYING*/
-#final {
+#final.interactiveSlide.showSlide {
   display: block;
+  top: 100%;
+}
+
+#final .optiona {
+  display: block;
+  left: 700px;
 }
 
 
